@@ -77,8 +77,7 @@ div.red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: solid 2px #FFFFFF;
-    border-left: solid 5px #FFFFFF;
+    border-width: 0 0 2px 5px;
 }
 
 /* Background color is hex value for blue
@@ -89,8 +88,7 @@ A  border of 5px on the right and 2px on the top;
 div.blue {
     background-color: #0000FF;
     margin-right: 50px;
-    border-right: solid 5px #FFFFFF;
-    border-top: solid 2px #FFFFFF;
+    border-width: 2px 5px 0 0;
 }
 /* The heading and paragraph text should use #C4C4C4 */
 div.blue h2, div.blue p {
@@ -106,8 +104,7 @@ div.yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: solid 2px #FFFFFF;
-    border-left: solid 5px #FFFFFF;
+    border-width: 0 0 2px 5px;
 }
 /* The paragraph text should be #707070. */
 div.yellow p {
@@ -123,8 +120,7 @@ div.green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: solid 5px #FFFFFF;
-    border-top: solid 2px #FFFFFF;
+    border-width: 2px 5px 0 0;
 }
 
 /* a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000.

@@ -73,7 +73,7 @@ Text is aligned on the right side
 A left margin of 50px;
 A  border of 2px on the bottom and 5px on the left;
 */
-.red {
+div.red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
@@ -93,7 +93,7 @@ div.blue {
     border-top: solid 2px #FFFFFF;
 }
 /* The heading and paragraph text should use #C4C4C4 */
-.blue h2, .blue p {
+div.blue h2, div.blue p {
     color: #C4C4C4;
 }
 
@@ -102,7 +102,7 @@ Text is aligned on the right side
 A left margin of 50px;
 A border of 2px on the bottom and 5px on the left;
 */
-.yellow {
+div.yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
@@ -110,7 +110,7 @@ A border of 2px on the bottom and 5px on the left;
     border-left: solid 5px #FFFFFF;
 }
 /* The paragraph text should be #707070. */
-.yellow p {
+div.yellow p {
     color: #707070;
 }
 
@@ -119,7 +119,7 @@ Text is aligned on the left side
 A right margin of 50px;
 A  border of 5px on the right and 2px on the top;
 */
-.green {
+div.green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
@@ -137,6 +137,6 @@ footer {
     border: solid 5px #FFFFFF;
     font-size: 20px;
     text-align: right;
-    padding-top: 15px 15px 15px;
+    padding: 15px 15px 15px;
 }
 
